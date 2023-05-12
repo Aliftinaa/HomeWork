@@ -176,11 +176,11 @@ for object in gc.get_objects():
 
 
 
-# print('Сравнение людей по средним оценкам:')
-# print('Студент 1 < Студент 2', student1 < student2)
-# print('Лектор 1 > лектор 2', some_lecturer1 > some_lecturer2)
-# print('Студент 1 > лектор 1', student1  > some_lecturer1)
-# print()
+print('Сравнение людей по средним оценкам:')
+print('Студент 1 < Студент 2', student1 < student2)
+print('Лектор 1 > лектор 2', some_lecturer1 > some_lecturer2)
+print('Студент 1 > лектор 1', student1  > some_lecturer1)
+print()
 def average_rate_courses(course, student_list ):
     sum_ = 0
     quantity_ = 0
